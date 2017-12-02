@@ -1,14 +1,15 @@
 {
-  "name": "paster",
+  "name": "Paster",
   "main": "./lib/paster",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.1",
+  "description": "Plugin to Paste on Pastebin",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "paster:paste"
   },
-  "repository": "https://github.com/atom/paster",
+  "repository": "https://github.com/ataul443/atom-paster",
   "license": "MIT",
+  "author": "Shekh Ataul <ataul.one@outlook.com>",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
