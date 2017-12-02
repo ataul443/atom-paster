@@ -1,0 +1,24 @@
+{
+  "name": "paster",
+  "main": "./lib/paster",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "paster:paste"
+  },
+  "repository": "https://github.com/atom/paster",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "better-pastebin": "^0.4.1",
+    "pastebin-js": "^0.5.1",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}

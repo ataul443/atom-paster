@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Paster Paste",
+        "command": "paster:paste"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Paster",
+          "submenu": [
+            {
+              "label": "Paste",
+              "command": "paster:paste"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
